@@ -1,6 +1,9 @@
 import streamlit as st
 import pickle
 import pandas as pd
+from sklearn.compose import ColumnTransformer
+
+import  pandas
 import time
 
 # Sidebar header
